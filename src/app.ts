@@ -19,12 +19,12 @@ const main = async () => {
         await bot.sendMessage(phone, message, {})
         res.end('mensaje enviado')
     }))
-
+/**
     await createBot({
         flow: createFlow([flowBienvenida]),
         database: new MemoryDB(),
         provider
-    })
+    })**/
 }
 
 main()
